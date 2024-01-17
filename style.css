@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather&family=Mulish&family=Open+Sans:wght@400;800&display=swap');
+
+font-family: 'Inter',
+sans-serif;
+font-family: 'Merriweather',
+serif;
+font-family: 'Mulish',
+sans-serif;
+font-family: 'Open Sans',
+sans-serif;
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFF;
+    width: 1600px;
+    gap: 300px;
+    margin: 30px;
+
+}
+
+.brand-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-text {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-text h2 {
+    color: #131318;
+    font-family: 'Mulish', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-text p {
+    color: #FF5400;
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    padding: 0px;
+    margin: 0px;
+}
+
+.brand-name img {
+    width: 48px;
+   height: 48px;
+}
+
+.nav-links ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+}
