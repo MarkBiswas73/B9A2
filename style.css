@@ -18,25 +18,27 @@ sans-serif;
 body {
     margin: 0;
     padding: 0;
+    
 }
 
 
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background: #FFF;
-    width: 1600px;
-    gap: 300px;
-    margin: 30px;
-
+    background: black;
+    color: white;
+   
 }
 
 .brand-name {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+   
+}
+
+.brand-name img {
+    width: 48px;
+   height: 48px;
 }
 
 .nav-text {
@@ -61,18 +63,15 @@ body {
     font-style: normal;
     font-weight: 100;
     padding: 0px;
-    margin: 0px;
+    margin-right: 300px;
 }
 
-.brand-name img {
-    width: 48px;
-   height: 48px;
-}
 
 .nav-links ul{
     display: flex;
     justify-content: space-evenly;
-    gap: 10px;
+    margin-right: 100px;
+    gap: 20px;
 }
 
 .nav-links li{
@@ -82,3 +81,9 @@ body {
 .nav-links li a {
     text-decoration: none;
 }
+
+.nav-links li:hover{
+    background-color: silver;
+    padding: 10px;
+}
+   
