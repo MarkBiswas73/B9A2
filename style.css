@@ -30,6 +30,7 @@ body {
     display: flex;
     align-items: center;
     padding: 40px 100px;
+    gap: 10px;
 }
 
 .brand-name img {
@@ -44,7 +45,7 @@ body {
 
 .nav-text h2 {
     color: #131318;
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Mulish';
     font-size: 36px;
     font-weight: 800;
     padding: 0px;
@@ -70,13 +71,31 @@ body {
 
 .nav-links li{
     list-style: none;
+    padding: 20px;
 }
 
 .nav-links li a {
     text-decoration: none;
+    color: var(--Dark-02, #424247);
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+#home{
+color: #FF5400;
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-weight: 700;
 }
 
 .nav-links li:hover{
     background-color: silver;
 }
+
+
    
