@@ -9,8 +9,6 @@ sans-serif;
 font-family: 'Open Sans',
 sans-serif;
 
-
-
 * {
     box-sizing: border-box;
 }
@@ -18,7 +16,6 @@ sans-serif;
 body {
     margin: 0;
     padding: 0;
-    
 }
 
 
@@ -26,14 +23,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: black;
     color: white;
-   
 }
 
 .brand-name {
     display: flex;
-   
+    align-items: center;
+    padding: 40px 100px;
 }
 
 .brand-name img {
@@ -50,22 +46,20 @@ body {
     color: #131318;
     font-family: 'Mulish', sans-serif;
     font-size: 36px;
-    font-style: normal;
     font-weight: 800;
     padding: 0px;
     margin: 0px;
+    line-height:.6;
 }
 
-.nav-text p {
+#sub-text {
     color: #FF5400;
     font-family: 'Mulish', sans-serif;
     font-size: 15px;
-    font-style: normal;
     font-weight: 100;
     padding: 0px;
-    margin-right: 300px;
+    margin: 0px;
 }
-
 
 .nav-links ul{
     display: flex;
@@ -84,6 +78,5 @@ body {
 
 .nav-links li:hover{
     background-color: silver;
-    padding: 10px;
 }
    
