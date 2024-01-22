@@ -35,7 +35,7 @@ body {
 
 .brand-name img {
     width: 48px;
-   height: 48px;
+    height: 48px;
 }
 
 .nav-text {
@@ -50,7 +50,7 @@ body {
     font-weight: 800;
     padding: 0px;
     margin: 0px;
-    line-height:.6;
+    line-height: .6;
 }
 
 #sub-text {
@@ -62,14 +62,14 @@ body {
     margin: 0px;
 }
 
-.nav-links ul{
+.nav-links ul {
     display: flex;
     justify-content: space-evenly;
     margin-right: 100px;
     gap: 20px;
 }
 
-.nav-links li{
+.nav-links li {
     list-style: none;
     padding: 20px;
 }
@@ -77,35 +77,35 @@ body {
 .nav-links li a {
     text-decoration: none;
     color: var(--Dark-02, #424247);
-text-align: center;
-font-family: Mulish;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-#home{
-color: #FF5400;
-text-align: center;
-font-family: Mulish;
-font-size: 18px;
-font-weight: 700;
+#home {
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
 }
 
-.nav-links li:hover{
-    background-color: #a8bdc4 ;
+.nav-links li:hover {
+    background-color: #a8bdc4;
 }
 
-.menu-button{
- position: absolute;
- display: none;
- top: 50px;
- right: 50px;
-flex-direction: column;
- justify-content: space-between;
- width: 30px;
- height: 20px;
+.menu-button {
+    position: absolute;
+    display: none;
+    top: 50px;
+    right: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
 }
 
 .menu-button .bar {
@@ -115,6 +115,75 @@ flex-direction: column;
     border-radius: 10px;
 }
 
+/* Explore your Travel section */
 
 
+.banner1 {
+    height: 500px;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png); 
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.banner1 h2 {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.banner1 p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400; 
+    padding: 0px 300px 30px 300px;
+    margin: 0;
+}
+
+.form {
+    padding: 16px;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+}
+
+.form-box {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    margin-right: 10px;
+}
+
+#form-btn {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0px;
+   padding: 15px;
+}
+
+#search-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
 
