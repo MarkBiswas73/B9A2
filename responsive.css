@@ -42,9 +42,6 @@
 
     /* Explore your travel */
 
-    .banner1 {
-        height: 483px;
-    }
 
     .banner1 h2 {
         color: #FFF;
@@ -53,7 +50,7 @@
         font-style: normal;
         font-weight: 800;
         margin: 0px;
-        padding: 0px;
+        padding: 30px;
     }
 
     .banner1 p {
@@ -62,17 +59,16 @@
         font-family: Mulish;
         font-size: 14px;
         font-weight: 400;
-        margin: 0px;
-        padding: 0px;
+        padding: 10px;
     }
 
     .form {
-        padding: 16px;
-        gap: 24px;
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.30);
         display: flex;
         flex-direction: column;
+        padding: 10px 0px;
+        margin: 0 50px;
     }
 
     .form-box {
@@ -81,13 +77,16 @@
         border-radius: 8px;
         background: #FFF;
         border: 0;
-        margin-right: 10px;
+        padding: 0px;
+        text-align: center;
+        margin: 10px;
     }
 
     #form-btn {
         width: 255px;
-height: 52px;
-flex-shrink: 0;
+        height: 52px;
+        flex-shrink: 0;
+    
     }
 
 
