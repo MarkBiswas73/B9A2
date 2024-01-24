@@ -237,3 +237,16 @@ body {
     font-size: 20px;
     font-weight: 800;
 }
+
+/* Choose Your Destination */
+
+.destination-sec {
+    display: grid;
+    padding: 0px 100px;
+    gap: 20px;
+}
+
+.img-row{
+
+    
+}
