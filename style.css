@@ -243,9 +243,9 @@ body {
 .img-container {
     display: flex;
     gap: 10px;
-   flex-direction: column;
-   align-items: center;
-    
+    flex-direction: column;
+    align-items: center;
+
 }
 
 
@@ -253,7 +253,7 @@ body {
     padding: 0px 10px;
 }
 
-.destination-test h2{
+.destination-test h2 {
 
     color: #131318;
     text-align: center;
@@ -265,13 +265,96 @@ body {
 
 }
 
-.destination-test p{
-color: rgba(19, 19, 24, 0.70);
-text-align: center;
-font-family: Mulish;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-padding-bottom: 20px;
+.destination-test p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 20px;
 }
 
+/* Why Choose Us */
+
+.service-headtxt h3 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    padding: 0px;
+    margin-top: 30px;
+}
+
+.service-headtxt p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 50px ;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.hotel {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 20px;
+}
+
+.service-subhead {
+    color: #131318;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.service-para {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+.map {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 20px;
+
+}
+
+.pricediv {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.price {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 20px;
+
+}
